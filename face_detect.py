@@ -88,11 +88,6 @@ class VideoCamera(object):
                 cv2.putText(frame, label, (startX, startY-10), cv2.FONT_HERSHEY_SIMPLEX, 0.45, color, 2)
                 cv2.rectangle(frame, (startX, startY), (endX, endY), color, 2)
 
-                # cv2.imshow("Frame", frame)
-                # key = cv2.waitKey(1) & 0xFF
-
-            # We are using Motion JPEG, but OpenCV defaults to capture raw images,
-            # so we must encode it into JPEG in order to correctly display the
-            # video stream.
+          
 
             return frame
