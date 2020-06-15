@@ -24,12 +24,13 @@ Open cmd ,
 1. type pip install imutils
 2. type pip install tensorflow
 3. type pip install opencv-python
+4. type pip install flask
 
 step 4 :
 copy all the folders & files from master and edit path from face_detect.py
 
 step 5: 
-inside templates folder there is index.html .....Edit That with what front end you have made
+inside templates folder there is all the files of front end , edit from there 
 
 step 6:
 run the main.py file
