@@ -30,7 +30,7 @@ step 4 :
 copy all the folders & files from master and edit path from face_detect.py
 
 step 5: 
-inside templates folder there is all the files of front end , edit from there 
+inside templates folder there is all the files of front end , all the CSS & image/video files are in static folder in root.
 
 step 6:
 run the main.py file
