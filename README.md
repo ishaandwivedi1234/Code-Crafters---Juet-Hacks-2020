@@ -1,4 +1,4 @@
-# Code-Crafters---Juet-Hacks-2020
+# Code-Crafters---Juet-Hacks-2020 || Crefter's Mask Detector 
 
 Setting Up Environment To run :
 
