@@ -3,13 +3,14 @@
 <head>
 	<title>Crafter's Mask Detector</title>
 	<link rel="stylesheet" href="{{url_for('static', filename='main.css')}}" >
+	<link rel="stylesheet" href="{{url_for('static', filename='css/font-awesome.min.css')}}">
+
 </head>
 <body>
 
   <header class="v-header container">
       <div class="fullscreen-video-wrap">
-        <!--  https://www.videvo.net/video/typing-on-computer-white-bg/4475/ -->
-        <!-- DO NOT USE THIS VIDEO, I JUST NEEDED A HOSTED VIDEO FOR THIS CODEPEN> USE THE ONE ABOVE -->
+
         <video src="{{url_for('static', filename='home.mp4')}}"  autoplay loop muted>
       </video>
       </div>
@@ -19,48 +20,51 @@
 								<div class="navbar">
 										<div class="logo">
 												<h2>Crafter's Mask Detector</h2>
+												<!-- <img src="{{url_for('static', filename='LOGO.png')}}" height="200px" width="300px" /> -->
 										</div>
 										<div class="menu">
 												<ul>
 														<li><a href="{{ url_for('index') }}">Home</a></li>
 														<li><a href="{{ url_for('service') }}">Services</a></li>
 														<li><a href="{{ url_for('about') }}">About Us</a></li>
-														<li><a href="#">Contact Us</a></li>
+														<a href="{{url_for('download')}}" style="margin-left:60px;margin-top:5px">
+															<div id="testbutton" >
+															</div>
+														</a>
 
 												</ul>
 										</div>
 								</div>
 						</div>
-
-
-
-
-
 			</div>
       <div class="header-content text-md-center">
         <h1>Hi There ! Let's Fight Together </h1>
         <p>
-          An AI based mask detector module to help your business grow in this hard time of pandemic , Start monitoring your crowd and play safe
+          An AI & ML based mask detector module to help your business grow in this hard time of pandemic , Start monitoring your crowd and play safe
         </p>
-        <a class="btn" href="{{ url_for('face') }}">Get Started</a>
+				<a class="gradient-button gradient-button-4" href="{{ url_for('face') }}">Get Started</a>
+        <!-- <a class="btn" href="{{ url_for('face') }}">Get Started</a> -->
       </div>
     </header>
-
-    <section class="section section-a">
-      <div class="container">
-        <h2>How To </h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
-      </div>
-    </section>
-
     <section class="section section-b">
       <div class="container">
-        <h2>Section B</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
-      </div>
+        <!-- <h2>Section B</h2> -->
+				<h3>
+					Follow us at
+				</h3>
+			<center>
 
+				 <a href="#"><i class="fa fa-facebook fa-2x" style="padding-left:8px;color:#fff "></i></a>
+				 <a href="#"><i class="fa fa-github fa-2x" style="padding-left:8px;color:#fff" ></i></a>
+				 <a href="#"><i class="fa fa-twitter fa-2x" style="padding-left:8px;color:#fff"></i></a>
+				<br>
+				<p>Made with
+				<i class="fa fa-heart" style="color:red"> </i>
+				by team Code Crafters @JUET_Hacks_2020 </p>
+						</center>
+		</div>
     </section>
 
 
-  </<body>
+  </body>
   </html>
