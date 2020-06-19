@@ -7,6 +7,10 @@ font-size:1rem;
 font-weight:normal;
 	background: linear-gradient(to right, #2193b0 , #6dd5ed);
 }
+.logo{
+/* background-color: #fff; */
+margin-top: -58px;
+}
 #nav
 {
     background-color:#2ea2eb;
