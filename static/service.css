@@ -7,6 +7,10 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size:1rem;
 	font-weight:normal;
 }
+.logo{
+/* background-color: #fff; */
+margin-top: -58px;
+}
 .container{
 	margin-left: 70px;
 	position: relative;
