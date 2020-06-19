@@ -1,7 +1,7 @@
-from flask import Flask, render_template, Response
+from flask import Flask, render_template, Response,redirect
 from face_detect import VideoCamera
-
 import cv2
+
 
 app = Flask(__name__)
 
@@ -21,11 +21,16 @@ def service():
 def about():
     return render_template('about.html')
 
+@app.route('/download')
+def download():
+    return redirect("https://github.com/ishaandwivedi1234/Code-Crafters---Juet-Hacks-2020")
+
 def gen(face_detect):
     while True:
         img = face_detect.get_frame()
         frame1=cv2.imencode('.jpg', img)[1].tobytes()
         yield (b'--frame\r\n'b'Content-Type: image/jpeg\r\n\r\n' + frame1 + b'\r\n')
+        # winsound.Beep(1000,500)
 
 @app.route('/video_feed')
 def video_feed():
