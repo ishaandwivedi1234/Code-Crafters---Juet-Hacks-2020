@@ -9,6 +9,10 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
+.logo{
+/* background-color: #fff; */
+margin-top: -58px;
+}
 
 section{
   width: 100%;
