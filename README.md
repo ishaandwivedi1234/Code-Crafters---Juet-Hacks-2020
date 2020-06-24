@@ -36,3 +36,5 @@ run the main.py file
 
 # step 7:
 open Chrome and in add. bar type localhost:5000 to view the site
+
+#ALL DONE !!!
